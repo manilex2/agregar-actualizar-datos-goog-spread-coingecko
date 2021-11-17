@@ -120,7 +120,6 @@ app.get("/", async (consulta, respuesta) => {
                                 }
                             }
                         }
-                        console.log(criptos.length, coinsDesglozados.length*process.env.CANTIDAD_CONSULTAS, precios.length);
                         if(criptos.length == coinsDesglozados.length*process.env.CANTIDAD_CONSULTAS && precios.length == coinsDesglozados.length*process.env.CANTIDAD_CONSULTAS) {
                             guardarDatosFetch(criptos, precios);
                         }
