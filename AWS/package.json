@@ -1,0 +1,16 @@
+{
+  "name": "all-coins-final-price-aws",
+  "version": "1.0.0",
+  "description": "Conexion ultimo precio entre Coingecko a Google SpreadSheets",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "googleapis": "^91.0.0",
+    "node-fetch": "^2.6.6"
+  },
+  "author": "Manuel Pereira",
+  "license": "ISC"
+}
